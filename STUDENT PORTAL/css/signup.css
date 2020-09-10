@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap');
+
+
+
+h1 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  letter-spacing: 10px;
+  padding: 20px 0;
+  font-size: 48px;
+}
+
+h2 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+  letter-spacing: 15px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#signUp_Form img
+{
+  width: 200px;
+  margin-right: 65px;
+}
+
+#signUp_Form form {
+
+  padding: 60px 70px;
+  background-color: #212529;
+  margin-bottom: 50px;
+}
+
+#signUp_Form form label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+#signUp_Form form input {
+  height: 55px;
+}
+
+#signUp_Form form input.genderRadio
+{
+  height: unset;
+  margin-left: 20px;
+}
+
+#signUp_Form form input#profileP
+{
+  height: unset;
+  background: transparent;
+  border: none;
+}
+
+#signUp_Form form span
+{
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #ccc;
+}
+
+#signUp_Form form input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+}
+
+#signUp_Form form button {
+  border-radius: unset;
+  padding: 15px 35px;
+  margin-top: 30px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 20px;
+  border: none !important;
+}
+
+#signUp_Form form button:hover {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: #ffffff !important;
+  outline: none !important;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+input.error {border:solid 2px red;}
+span.error {color:red;}

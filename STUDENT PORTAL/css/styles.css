@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7 {
+  border-bottom: 1px solid #666666;
+}
+
+/*MEDIA QUERIES*/
+@media (min-width:320px) and (max-width: 576px) {
+
+
+  h1 {
+    letter-spacing: 10px !important;
+    padding: 85px 0px !important;
+    font-size: 24px;
+    line-height: 50px !important;
+
+  }
+
+  h2 {
+    letter-spacing: 10px !important;
+  }
+
+  div#section2 {
+    margin: auto;
+  }
+
+  #faculty_Images h2 {
+    letter-spacing: initial !important;
+  }
+
+  div#courses div.course-info h2 {
+    letter-spacing: -2px !important;
+  }
+
+  .card {
+    margin-bottom: 70px;
+  }
+
+  #section6 #contact form {
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+
+  #section6 #office_details i {
+    font-size: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  #office_details span {
+    font-size: 20px !important;
+  }
+
+  .galleryImages img {
+    height: 200px !important;
+    object-fit: contain;
+  }
+
+  div.galleryImages {
+    margin-bottom: 20px;
+  }
+
+  #signUP .Arrow i {
+    display: none !important;
+  }
+
+  #signUP button#signup_button {
+    padding: 15px 35px;
+    margin-top: 40px;
+  }
+
+  footer {
+    padding: 30px 0 !important;
+  }
+
+  footer .social_Links a i {
+    font-size: 25px !important;
+    margin-right: 10px !important;
+  }
+
+  .social_Links {
+    margin-top: 20px;
+  }
+}
+
+/*Till 576px*/
+
+@media (width: 576px) {
+  .card {
+    height: 235px !important;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  h1 {
+    padding: 85px 0px !important;
+  }
+
+  #faculty h2 {
+    padding: 0px 0 55px !important;
+  }
+
+  #faculty_Images h2 {
+    padding: unset !important;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 0px !important;
+  }
+
+  div.card {
+    height: 330px !important;
+    margin-bottom: 40px !important;
+  }
+
+  #section6 form {
+    margin-bottom: 50px !important;
+  }
+
+  #signUP .Arrow i {
+    display: none !important;
+  }
+
+  .galleryImages {
+    margin-bottom: 0px !important;
+  }
+
+  #signUP #signup_button {
+    border-radius: unset;
+    padding: 15px 45px !important;
+    margin-top: 40px;
+  }
+
+  footer {
+    padding: 20px 0 !important;
+  }
+
+  .social_Links {
+    margin-top: 20px !important;
+  }
+}
+/*Till 767px*/
+
+@media (min-width:768px) and (max-width:991px) {
+  h1 {
+    padding: 85px 0px 115px !important;
+  }
+
+  #faculty h2 {
+    padding: 0px 0 55px !important;
+  }
+
+  #faculty_Images h2 {
+    padding: unset !important;
+    letter-spacing: unset !important;
+  }
+
+  .card {
+    height: 260px!important;
+    margin-bottom: 40px!important;
+}
+
+#section6 form {
+  padding: 20px!important;
+}
+
+#section6 #office_details i {
+  font-size: 20px !important;
+  margin-right: 20px !important;
+  margin-bottom: 70px !important;
+}
+
+#office_details span {
+  font-size: 20px !important;
+}
+.galleryImages img {
+  height: 200px !important;
+  object-fit: contain;
+}
+
+div.galleryImages {
+  margin-bottom: 20px;
+  padding: unset!important;
+}
+
+#section7 {
+  padding: 45px 0!important;
+}
+
+footer {
+  padding: 30px 0!important;
+}
+footer .social_Links a i {
+  font-size: 25px!important;
+  margin-right: 20px !important;
+  cursor: pointer;
+}
+
+}/*Till 991px*/
+
+@media (min-width:992px) and (max-width:1199px)
+{
+
+  li.nav-item a {
+    margin-right: 10px!important;
+    letter-spacing: 0px!important;
+    font-size: 20px!important;
+}
+
+h1
+{
+  padding: 85px 0px 115px!important;
+}
+
+#faculty_Images {
+  padding: 70px 0px 70px!important;
+}
+
+#faculty h2 {
+  padding: 0px 0 55px!important;
+}
+
+#faculty_Images h2 {
+  padding: unset!important;
+  letter-spacing: unset!important;
+}
+
+.card
+{
+  height: 390px!important;
+}
+
+#section6 form {
+  padding: 50px 40px!important;
+}
+
+.galleryImages {
+  margin-bottom: 10px!important;
+}
+
+.galleryImages img {
+  height: 300px!important;
+}
+
+footer {
+  padding: 20px 0!important;
+}
+
+footer .social_Links a i {
+  font-size: 25px!important;
+
+}
+
+}
+#contactMessage 
+{
+  padding: 150px 0;
+}
+
+#contactMessage h3
+{
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+  letter-spacing: 15px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+/*NAVBAR STYLES*/
+header,
+nav.bg-dark {
+  background-color: #020202 !important;
+}
+
+li.nav-item a {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-right: 20px;
+  letter-spacing: 4px;
+  font-size: 18px !important;
+}
+
+li.nav-item a:hover {
+  color: #ffffff !important;
+  transition: 0.2s ease !important;
+
+}
+
+.navbar-toggler {
+  background-color: #D90429 !important;
+  outline: unset !important;
+}
+
+/*ABOUT STYLES*/
+
+#section2 {
+  padding-bottom: 100px;
+}
+
+
+h1 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  letter-spacing: 15px;
+  padding: 85px 0px 215px;
+  font-size: 48px;
+}
+
+#about h2 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+#about p:last-child {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
+
+/*FACULTY STYLES*/
+
+#section2 {
+  margin-bottom: 97px;
+}
+
+#faculty h2 {
+  padding: 60px 0 55px;
+}
+
+#faculty_Images {
+  padding: 79px 0px 150px;
+}
+
+#faculty_Images h2 {
+  padding: unset;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#faculty_Images p {
+  text-align: center;
+}
+
+#faculty_Images img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*COURSES STYLES*/
+
+#section4 {
+  padding: 100px 0;
+}
+
+.course-details {
+  padding: 20px 0;
+}
+
+#courses h2 {
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+#courses p {
+  padding: 35px 0 95px;
+  padding: 10px 0 !important;
+}
+
+/*TESTIMONIALS STYLES*/
+
+#section5 {
+  padding: 120px 0;
+}
+
+.testimonial-details h3 {
+  padding-top: 20px;
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.testimonial-details img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.card {
+  background-color: #ffffff !important;
+  box-shadow: -2px 3px 7px 5px #a7a7a7 !important;
+  text-align: center;
+  height: 330px;
+}
+
+
+/*CONTACT US STYLES*/
+#section6 {
+  padding: 148px 0;
+}
+
+#contact p {
+  margin-bottom: 40px;
+}
+
+#section6 form {
+
+  padding: 60px 70px;
+  background-color: #CC444B;
+}
+
+#section6 form label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#section6 form input {
+  height: 55px;
+}
+
+#section6 form input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+}
+
+#section6 form button {
+  border-radius: unset;
+  padding: 15px 35px;
+  margin-top: 30px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 20px;
+  border: none !important;
+}
+
+#section6 form button:hover {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: #ffffff !important;
+  outline: none !important;
+}
+
+#section6 #office_details h2 {
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#office_details {
+  background-color: black;
+  padding: 50px 30px;
+}
+
+#section6 #office_details i {
+  font-size: 26px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+#office_details span {
+  font-size: 26px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  color: #ffffff;
+}
+
+#office_details iframe {
+  max-width: 100%;
+}
+
+/*GALLERY STYLES*/
+
+#section7 {
+  padding: 115px 0;
+}
+
+#gallery h2 {
+  margin-bottom: 50px;
+}
+
+.galleryImages {
+  margin-bottom: 50px;
+
+}
+
+.galleryImages img {
+  height: 360px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/*SIGN UP STYLES*/
+
+#section8 {
+  padding: 100px 0;
+}
+
+#signUP h2 {
+  margin-bottom: 70px;
+}
+
+#signUP p {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+
+}
+
+#signUP .Arrow i {
+  font-size: 32px;
+}
+
+#signUP #signup_button {
+  border-radius: unset;
+  padding: 25px 45px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 24px;
+  border: none !important;
+  background-color: #D90429;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+#signUP button#signup_button a#signup_link
+{
+  color: #ffffff!important;
+  text-decoration: none;
+}
+
+#signUP #signup_button:hover {
+  background-color: #020202;
+  color: #D90429;
+}
+
+/*Footer styles*/
+
+footer {
+  padding: 30px 0;
+  background-color: #020202;
+  color: #D90429;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+footer .social_Links a {
+  text-decoration: none !important;
+  color: #D90429 !important;
+}
+
+footer .social_Links a i {
+  font-size: 32px;
+  margin-right: 20px !important;
+  cursor: pointer;
+}
+
+footer .social_Links a i:hover {
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+
+footer .social_Links a i:last-child {
+  margin: unset;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+

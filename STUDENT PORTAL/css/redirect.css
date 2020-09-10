@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #D90429 !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 32px;
+  letter-spacing: 15px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  font-size: 18px;
+  line-height: 50px;
+}
